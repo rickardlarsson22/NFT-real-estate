@@ -1,11 +1,12 @@
 const Search = () => {
+    const newLocal = "Enter an address, ZIP, neighbo...";
     return (
         <header>
-            <h2 className="header__title">Search it. Explore it. Buy it.</h2>
+            <h2 className="header__title"></h2>
             <input
                 type="text"
                 className="header__search"
-                placeholder="Enter an address, neighborhood, city, or ZIP code"
+                placeholder={newLocal}
             />
         </header>
     );
